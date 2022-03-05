@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewHoloShader
+  m_Shader: {fileID: 4800000, guid: 644eea47fd3d4c145b1c69a6c541373f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - PitchClampUMirrorVTex:
+        m_Texture: {fileID: 2800000, guid: 4e34321da107fb14fa8c603fe4cbbaa5, type: 3}
+        m_Scale: {x: 6, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - PitchClampURepeatVTex:
+        m_Texture: {fileID: 2800000, guid: 4e34321da107fb14fa8c603fe4cbbaa5, type: 3}
+        m_Scale: {x: 6, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - PitchClampVMirrorUTex:
+        m_Texture: {fileID: 2800000, guid: 4e34321da107fb14fa8c603fe4cbbaa5, type: 3}
+        m_Scale: {x: 6, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Pitch_ClampU_MirrorV_Tex:
+        m_Texture: {fileID: 2800000, guid: 4e34321da107fb14fa8c603fe4cbbaa5, type: 3}
+        m_Scale: {x: 6, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CentreClampTex:
+        m_Texture: {fileID: 2800000, guid: 836f755f4b729ff499747e1af9720163, type: 3}
+        m_Scale: {x: 10, y: 7.5}
+        m_Offset: {x: 0, y: 0.08}
+    - _CentreTex:
+        m_Texture: {fileID: 2800000, guid: 836f755f4b729ff499747e1af9720163, type: 3}
+        m_Scale: {x: 25, y: 25}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f371036efc1dc51418091ed0bebf035f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PitchClampTex:
+        m_Texture: {fileID: 2800000, guid: 50e75157961ba1e40a6c091f04f19c58, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PitchMirrorPoint:
+        m_Texture: {fileID: 2800000, guid: 4e34321da107fb14fa8c603fe4cbbaa5, type: 3}
+        m_Scale: {x: 6, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PitchTex:
+        m_Texture: {fileID: 2800000, guid: 38f958a0d0af8bd45b1e85e98bb95d7f, type: 3}
+        m_Scale: {x: 6, y: 90}
+        m_Offset: {x: 0, y: -0.4}
+    - _Pitch_ClampU_MirrorV_point:
+        m_Texture: {fileID: 2800000, guid: 4e34321da107fb14fa8c603fe4cbbaa5, type: 3}
+        m_Scale: {x: 6, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RollClampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RollTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _YawClampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _YawTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 1
+    - _AngleBias: 0.26
+    - _CentreSizeX: 6
+    - _CentreSizeY: 6
+    - _MySize: 6
+    - _Pitch: 0
+    - _PitchSizeX: 6
+    - _PitchSizeY: 6
+    - _Roll: 0
+    - _RollSizeX: 6
+    - _RollSizeY: 6
+    - _YawSizeX: 6
+    - _YawSizeY: 6
+    m_Colors:
+    - _AxisBias: {r: 0, g: 0, b: 1, a: 0}
+    - _Colour: {r: 0, g: 1, b: 0, a: 1}
