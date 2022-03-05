@@ -1,0 +1,11 @@
+ModCFG
+{
+	title = CloverTechHud
+	author = DannyClover
+	modVersion = 0.0.0
+	requiresGameVersion = 0.101.0
+	Parts
+	{
+		part = Addons/CloverTechHud/parts/HudObject_new.cfg
+	}
+}

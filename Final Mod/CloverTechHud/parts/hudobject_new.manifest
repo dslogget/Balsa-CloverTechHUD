@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 1959406400
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5b3f7473b0370ec1a8c326fbe43e1990
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 504fe26fa12b0b2b04d194d6356c3c57
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 284495653, guid: b3215a61a5b041443bbc705e4f8872d0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/__partABtoolsExport/HudObject_new.prefab
+Dependencies: []
