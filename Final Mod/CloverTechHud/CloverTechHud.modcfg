@@ -8,4 +8,11 @@ ModCFG
 	{
 		part = Addons/CloverTechHud/parts/HudObject_new.cfg
 	}
+   Plugin
+   {
+      name = CloverTechHUD
+      description = Making you miss more accurately
+      asmpath = Addons/CloverTechHud/CloverTechHUD.dll
+      order=10
+   }
 }
